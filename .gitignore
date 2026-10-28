@@ -1,0 +1,8 @@
+# Local dependency resolution belongs to applications, not package releases.
+/Manifest.toml
+/Manifest-v*.toml
+*.cov
+*.mem
+/coverage/
+/.DS_Store
+/Thumbs.db
