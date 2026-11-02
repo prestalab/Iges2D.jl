@@ -184,7 +184,7 @@ function normalized(n::NurbsCurve)
     NurbsCurve(n.degree, (n.knots .- a) ./ (b - a), n.points, n.weights)
 end
 
-"Parameter range `[knots[degree+1], knots[end-degree]]` of a curve."
+# Parameter range [knots[degree+1], knots[end-degree]] of a curve.
 function knot_range(n::NurbsCurve)
     (n.knots[n.degree+1], n.knots[end-n.degree])
 end

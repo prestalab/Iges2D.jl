@@ -1,0 +1,6 @@
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+Iges2D = "00322a25-4b3b-4059-88f5-cab595c83168"
+
+[compat]
+Documenter = "1"

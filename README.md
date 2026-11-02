@@ -14,12 +14,14 @@ Requires Julia 1.9 or later. The core writer uses Julia standard libraries;
 
 ## Install
 
-Before General registration is merged, install from the repository:
-
 ```julia
 using Pkg
-Pkg.add(url="https://github.com/prestalab/Iges2D.jl")
+Pkg.add("Iges2D")
 ```
+
+The package is registered in the General registry. Julia 1.9 or later is
+required; optional [BSplineKit.jl](https://github.com/jipolanco/BSplineKit.jl)
+integration is loaded automatically when both packages are in the environment.
 
 ## Export curves
 

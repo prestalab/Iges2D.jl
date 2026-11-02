@@ -116,7 +116,7 @@ function fit_nurbs(points::AbstractVector{Point2}; degree::Integer = 3)
 end
 
 
-"1-based port of P&T A2.3 BasisFuns: N[r+1, j+1] = N_{span-p+r, j}(u)."
+# 1-based port of P&T A2.3 BasisFuns: N[r+1, j+1] = N_{span-p+r, j}(u).
 function _basis_funs(span::Int, u::Float64, knots::Vector{Float64}, p::Int)
     N = zeros(p + 1, p + 1)
     N[1, 1] = 1.0

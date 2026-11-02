@@ -1,0 +1,31 @@
+# This file is machine-generated - editing it directly is not advised
+
+julia_version = "1.12.6"
+manifest_format = "2.0"
+project_hash = "a0d62aa8bffbbc25289e618747a3a736f4e91b6d"
+
+[[deps.Dates]]
+deps = ["Printf"]
+uuid = "ade2ca70-3891-5945-98fb-dc099432e06a"
+version = "1.11.0"
+
+[[deps.Iges2D]]
+deps = ["Dates"]
+path = "C:\\Users\\vac1\\orca\\projects\\IGES.jl"
+uuid = "00322a25-4b3b-4059-88f5-cab595c83168"
+version = "0.1.0"
+
+    [deps.Iges2D.extensions]
+    Iges2DBSplineKitExt = "BSplineKit"
+
+    [deps.Iges2D.weakdeps]
+    BSplineKit = "093aae92-e908-43d7-9660-e50ee39d5a0a"
+
+[[deps.Printf]]
+deps = ["Unicode"]
+uuid = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+version = "1.11.0"
+
+[[deps.Unicode]]
+uuid = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
+version = "1.11.0"
